@@ -1,0 +1,33 @@
+
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.chat_messages{
+  border: 1px solid black;
+}
+
+.sent{
+  float: right;
+  clear: both;
+  border: 5px solid blue;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  background-color: lightgreen;
+}
+.received{
+  float: left;
+  clear: both;
+  border: 5px solid red;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  background-color: lightgreen;
+
+}
+input{
+  margin: 30px;
+}

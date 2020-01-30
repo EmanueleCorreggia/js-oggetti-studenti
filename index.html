@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.2/handlebars.min.js" integrity="sha256-MlbTFXdOM7EZphnz0OyXQqPt2zBOjfRXCq14CfgSsS0=" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="">
+    <span>Primo Esercizio></span>
+  </div>
+  <div id="primo_esercizio"></div>
+  <div id="primo_handlebarsjs"></div>
+  <br>
+
+  <div class="">
+    <span>Secondo Esercizio></span>
+  </div>
+  <div id="secondo_esercizio"></div>
+  <div id="secondo_handlebarsjs"></div>
+  <br>
+
+  <div class="">
+    <button type="button" name="button">Terzo Esercizio></button>
+  </div>
+  <div id="terzo_esercizio"></div>
+  <div id="terzo_handlebarsjs"></div>
+
+  <script id="template" type="text/x-handlebars-template">
+    <div class="entry">
+      <h1>{{nome}} {{cognome}}</h1>
+      <h3>età: {{eta}}</h3>
+    </div>
+  </script>
+
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>
